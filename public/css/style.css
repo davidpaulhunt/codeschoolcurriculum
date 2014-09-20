@@ -173,20 +173,6 @@ body { padding-top: 50px; }
   color: #FFF;
 }
 
-.form-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden;
-}
-.form-container iframe {
-  top:0;
-  left: 0;
-  width: 500px;
-  height: 100%;
-}
-
 #page-footer {
   min-height: 100px;
   background-color: #2548AE;
