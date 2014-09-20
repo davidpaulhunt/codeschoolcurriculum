@@ -1,0 +1,170 @@
+body { padding-top: 50px; }
+
+.centered {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 55px;
+  padding-top: 70px;
+}
+
+#the-navbar {
+  background-color: #2548AE;
+  border: none;
+  min-height: 80px;
+  padding-top: 15px;
+}
+
+#the-navbar .navbar-brand {
+  font-size: 1.5em;
+}
+
+#the-navbar a {
+  color: #FFF;
+  font-size: 1.1em;
+}
+
+#the-navbar a:hover {
+  border-bottom: 2px #FFF solid;
+}
+
+#the-banner {
+  background-color: #2548AE;
+  color: #FFF;
+  margin-bottom: 0px;
+  min-height: 85vh;
+  padding-top: 200px;
+}
+
+#the-banner p { color: #C2D3E0; }
+
+#the-banner .btn { margin-top: 50px; }
+
+#what-we-do {
+  min-height: 250px;
+  background-color: #3E99E0;
+  color: #FFF;
+  padding-bottom: 75px;
+}
+
+#what-we-do .section-title {
+  margin-bottom: 15px;
+}
+
+.web-page {
+  background-color: #333;
+  width: 50vw;
+  height: 300px;
+  overflow-y: hidden;
+  margin: 100px auto -100px auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.web-page-toolbar {
+  background-color: grey;
+  width: 100%;
+  height: 5vh;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.web-page-tools {
+  padding: 10px;
+}
+
+.web-page-red {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #EB604B;
+  margin: auto 0;
+}
+
+.web-page-yellow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #FFF019;
+  margin: auto 0;
+}
+
+.web-page-green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #00C483;
+  margin: auto 0;
+}
+
+.web-page-code {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.yellow {
+  color: #F74579;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: #7EFF92;
+}
+
+.spacer {
+  width: 5px;
+  height: 20px;
+}
+
+#how-we-do-it {
+  min-height: 350px;
+  background-color: #FFF;
+  color: #333;
+}
+
+#how-we-do-it img {
+  height: 80px;
+  width: 80px;
+}
+
+#how-we-do-it p {
+  font-size: 24px;
+}
+
+.class-class {
+  background: url('../images/class.jpg') no-repeat center;
+  background-size: contain;
+  border-radius: 50px;
+  height: 700px;
+}
+
+#the-plan {
+  min-height: 250px;
+  padding-bottom: 50px;
+}
+
+#the-plan p {
+  font-size: 18px;
+}
+
+#contact-us {
+  min-height: 300px;
+  background-color: #3E99E0;
+  color: #FFF;
+}
+
+#page-footer {
+  min-height: 100px;
+  background-color: #2548AE;
+  color: #FFF;
+  font-size: 18px;
+}
+
+#page-footer p {
+  padding: 45px 0;
+}
