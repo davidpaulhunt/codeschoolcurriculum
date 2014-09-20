@@ -1,3 +1,17 @@
+
+@media screen and (max-width: 800px) {
+  iframe {
+    top:0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+  }
+
+  .navbar .glyphicon {
+    display: none;
+  }
+}
+
 body { padding-top: 50px; }
 
 .centered {
@@ -34,7 +48,7 @@ body { padding-top: 50px; }
   color: #FFF;
   margin-bottom: 0px;
   min-height: 85vh;
-  padding-top: 200px;
+  padding-top: 24vh;
 }
 
 #the-banner p { color: #C2D3E0; }
@@ -55,6 +69,7 @@ body { padding-top: 50px; }
 .web-page {
   background-color: #333;
   width: 50vw;
+  min-width: 450px;
   height: 300px;
   overflow-y: hidden;
   margin: 100px auto -100px auto;
@@ -156,6 +171,20 @@ body { padding-top: 50px; }
   min-height: 300px;
   background-color: #3E99E0;
   color: #FFF;
+}
+
+.form-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.form-container iframe {
+  top:0;
+  left: 0;
+  width: 500px;
+  height: 100%;
 }
 
 #page-footer {
